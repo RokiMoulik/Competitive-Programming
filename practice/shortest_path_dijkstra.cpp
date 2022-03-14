@@ -19,7 +19,6 @@ string getMinCity(){
     string minCity = "";
     
     for(int i = 0; i < citiesInq.size(); i++){
-        cout << "in loop"<<endl;
         if(dist[citiesInq[i]] < mn){
             mn = dist[citiesInq[i]];
             minCity = citiesInq[i];
